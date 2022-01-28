@@ -29,7 +29,7 @@ stages:
         apiEndpoint: "https://api.cf.us10.hana.ondemand.com"
         org: "20afb725trial"
         space: "dev"
-        credentialsId: "cfdeploy"
+        credentialsId: 'cfdeploy'
         appName: ""
       mtaDeployParameters: "-f --version-rule ALL"
   artifactPrepareVersion:
